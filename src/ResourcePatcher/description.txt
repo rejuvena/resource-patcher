@@ -1,0 +1,14 @@
+A powerful mod to enhance Terraria's resource packs.
+
+Resource Patcher serves to accomplish two goals:
+1. enhance the Vanilla resource pack system, enabling greater and finer control over resource replacements;
+2. provide a framework for mods to register their own resource replacements as texture packs configurable by the user instead.
+
+Resource patcher allows resource pack artists to:
+* todo
+
+Resource patcher allows modders to:
+* todo
+
+Source repository: https://github.com/rejuvena/resource-patcher
+Discord: https://discord.gg/Y8bvvqyFQw

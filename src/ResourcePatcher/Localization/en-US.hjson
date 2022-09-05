@@ -1,0 +1,10 @@
+﻿Mods.ResourcePatcher: {
+    UI: {
+        RPName: Resource Patcher
+
+        ManifestOK: Manifest Vers. Up-to-Date
+        ManifestTooNew: Manifest Vers. Too New
+        ManifestTooOld: Manifest Vers. Too Old
+        ManifestUnknown: Manifest Vers. Unknown
+    }
+}
