@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
 using Rejuvena.ResourcePatcher.API;
-using Rejuvena.ResourcePatcher.Common.Data;
-using Rejuvena.ResourcePatcher.Common.Util;
+using Rejuvena.ResourcePatcher.Common.CWT;
+using Rejuvena.ResourcePatcher.Common.CWT.Data;
 using Terraria.IO;
 
 namespace Rejuvena.ResourcePatcher.Common.Patches

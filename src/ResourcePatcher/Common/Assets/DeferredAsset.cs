@@ -2,7 +2,7 @@
 using ReLogic.Content;
 using Terraria.ModLoader;
 
-namespace Rejuvena.ResourcePatcher.Common.Util
+namespace Rejuvena.ResourcePatcher.Common.Assets
 {
     // TODO: Implement IAsset when possible.
     public sealed class DeferredAsset<T> : IDisposable

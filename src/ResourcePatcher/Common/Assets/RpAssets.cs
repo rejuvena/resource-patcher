@@ -1,8 +1,7 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using Rejuvena.ResourcePatcher.Common.Util;
 using Terraria.ModLoader;
 
-namespace Rejuvena.ResourcePatcher.Common
+namespace Rejuvena.ResourcePatcher.Common.Assets
 {
     public sealed class RpAssets : ILoadable
     {

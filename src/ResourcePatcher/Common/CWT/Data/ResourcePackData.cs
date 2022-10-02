@@ -1,4 +1,4 @@
-﻿namespace Rejuvena.ResourcePatcher.Common.Data
+﻿namespace Rejuvena.ResourcePatcher.Common.CWT.Data
 {
     public class ResourcePackData
     {

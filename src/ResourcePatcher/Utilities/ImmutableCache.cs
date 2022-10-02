@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Rejuvena.ResourcePatcher.Common.Util
+namespace Rejuvena.ResourcePatcher.Utilities
 {
     public sealed class ImmutableCache<T> : IDisposable
     {

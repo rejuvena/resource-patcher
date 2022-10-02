@@ -1,5 +1,5 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using Rejuvena.ResourcePatcher.Common.Util;
+using Rejuvena.ResourcePatcher.Utilities;
 using Terraria.GameContent.UI.Elements;
 using Terraria.Localization;
 

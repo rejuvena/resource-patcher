@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework;
 using Terraria;
 
-namespace Rejuvena.ResourcePatcher.Common.Util
+namespace Rejuvena.ResourcePatcher.Utilities
 {
     public static class StringExtensions
     {

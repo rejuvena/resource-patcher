@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Rejuvena.ResourcePatcher.Common.Util;
+using Rejuvena.ResourcePatcher.Common.Assets;
 using ReLogic.Content;
 
 namespace Rejuvena.ResourcePatcher.Utilities

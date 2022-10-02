@@ -1,8 +1,7 @@
-﻿using Rejuvena.ResourcePatcher.Common.Util;
-using ReLogic.Content.Sources;
+﻿using ReLogic.Content.Sources;
 using Terraria.IO;
 
-namespace Rejuvena.ResourcePatcher.Common.Data
+namespace Rejuvena.ResourcePatcher.Common.CWT.Data
 {
     public class ContentSourceData
     {
