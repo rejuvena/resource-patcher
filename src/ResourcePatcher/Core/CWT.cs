@@ -3,11 +3,11 @@ using System.Runtime.CompilerServices;
 
 namespace Rejuvena.ResourcePatcher.Core
 {
-    public static class CWT<TKey, TValue>
+    public static class Cwt<TKey, TValue>
         where TKey : class
         where TValue : class, new()
     {
-        static CWT() {
+        static Cwt() {
             // This is implicitly unsubscribed during the unloading process, so nothing to fear.
             ResourcePatcher.OnUnload += patcher => { Data = null!; };
         }

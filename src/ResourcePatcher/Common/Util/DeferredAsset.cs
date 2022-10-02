@@ -2,20 +2,20 @@
 using ReLogic.Content;
 using Terraria.ModLoader;
 
-namespace Rejuvena.ResourcePatcher.Common.Assets
+namespace Rejuvena.ResourcePatcher.Common.Util
 {
     // TODO: Implement IAsset when possible.
     public sealed class DeferredAsset<T> : IDisposable
         where T : class
     {
-        public Asset<T> Asset => BackingAsset ??= ModContent.Request<T>(Path);
+        public Asset<T> Asset => _backingAsset ??= ModContent.Request<T>(_path);
         public T Value => Asset.Value;
 
-        private Asset<T>? BackingAsset;
-        private readonly string Path;
+        private Asset<T>? _backingAsset;
+        private readonly string _path;
 
         public DeferredAsset(string path) {
-            Path = path;
+            _path = path;
         }
 
         #region IDisposable Impl

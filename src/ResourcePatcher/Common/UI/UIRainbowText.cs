@@ -13,10 +13,9 @@ namespace Rejuvena.ResourcePatcher.Common.UI
         public UIRainbowText(LocalizedText text, float textScale = 1, bool large = false) : base(text, textScale, large) { }
 
         protected override void DrawSelf(SpriteBatch spriteBatch) {
-            string oldText = Text;
+            using ImmutableCache<string> _ = new(Text, SetText);
             SetText(Text.AsRainbow(_frameCount++));
             base.DrawSelf(spriteBatch);
-            SetText(oldText);
         }
     }
 }

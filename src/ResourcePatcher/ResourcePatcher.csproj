@@ -12,6 +12,21 @@
         <RootNamespace>Rejuvena.ResourcePatcher</RootNamespace>
     </PropertyGroup>
 
+    <!-- Rejuvena.Collate configuration -->
+    <PropertyGroup>
+        <!-- Enable tML's roslyn analyzers -->
+        <TMLCodeAssist>enable</TMLCodeAssist>
+
+        <!-- Add our access transformer. -->
+        <!-- Include $(AccessTransformerPaths) in case other paths are defined. Paths are separted with a semicolon (;). -->
+        <!-- Since these paths get carried around, we want the fully-qualified path name. We use MSBuildProjectDirectory for this. -->
+        <!-- <AccessTransformerPaths>$(AccessTransformerPaths);$(MSBuildProjectDirectory)\.accesstransformer</AccessTransformerPaths> -->
+
+        <!-- This is obsolete, but was once valid: -->
+        <AccessTransformerPath>.accesstransformer</AccessTransformerPath>
+        <!-- It is unadvised to use this, as support will be eventually axed, but currently it just gets appened AccessTransformerPaths. -->
+    </PropertyGroup>
+
     <!-- Mod properties -->
     <PropertyGroup>
         <DisplayName>Resource Patcher</DisplayName>
@@ -28,7 +43,7 @@
     <!-- Package references -->
     <ItemGroup>
         <!-- Rejuvena.Collate, our build toolchain -->
-        <PackageReference Include="Rejuvena.Collate" Version="1.0.1" />
+        <PackageReference Include="Rejuvena.Collate" Version="1.1.0" />
 
         <!-- Roslyn analyzes by the tModLoader team -->
         <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
