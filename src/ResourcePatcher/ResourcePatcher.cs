@@ -6,7 +6,6 @@ using Microsoft.Xna.Framework.Graphics;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using Rejuvena.ResourcePatcher.API;
-using Rejuvena.ResourcePatcher.Common;
 using Rejuvena.ResourcePatcher.Common.Assets;
 using Rejuvena.ResourcePatcher.Common.CWT.Data;
 using Rejuvena.ResourcePatcher.Common.Patches;
