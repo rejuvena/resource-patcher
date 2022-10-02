@@ -55,14 +55,6 @@ namespace Rejuvena.ResourcePatcher
         public override void Unload() {
             base.Unload();
 
-            On.Terraria.IO.ResourcePack.GetContentSource -= AddDataToContentSource;
-            IL.Terraria.IO.ResourcePackList.CreatePacksFromSavedJson -= ReplaceResourcePackCtor;
-            IL.Terraria.IO.ResourcePackList.CreatePacksFromDirectories -= ReplaceResourcePackCtor;
-            IL.Terraria.IO.ResourcePackList.CreatePacksFromZips -= ReplaceResourcePackCtor;
-            IL.Terraria.IO.ResourcePackList.CreatePacksFromWorkshopFolders -= ReplaceResourcePackCtor;
-            On.Terraria.GameContent.UI.Elements.UIResourcePack.DrawSelf -= DrawAdditionalIcon;
-            IL.Terraria.GameContent.UI.States.UIResourcePackInfoMenu.BuildPage -= VersionDisplay;
-
             OnUnload?.Invoke(this);
 
             // Release any subscriptions.
