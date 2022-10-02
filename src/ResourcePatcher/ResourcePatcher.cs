@@ -10,7 +10,7 @@ using Rejuvena.ResourcePatcher.Common;
 using Rejuvena.ResourcePatcher.Common.Data;
 using Rejuvena.ResourcePatcher.Common.Patches;
 using Rejuvena.ResourcePatcher.Common.UI;
-using Rejuvena.ResourcePatcher.Common.Util;
+using Rejuvena.ResourcePatcher.Utilities;
 using ReLogic.Content.Sources;
 using Terraria.GameContent.UI.Elements;
 using Terraria.GameContent.UI.States;
@@ -19,14 +19,6 @@ using Terraria.IO;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.UI;
-
-namespace ResourcePatcher
-{
-    // Circumvents this stupid and arbitrary decision:
-    // https://github.com/tModLoader/tModLoader/blob/58794a48d27a7d2babb7760dd33cbcfe5068305f/patches/tModLoader/Terraria/ModLoader/Core/AssemblyManager.cs#L213
-    internal sealed class Dummy
-    { }
-}
 
 namespace Rejuvena.ResourcePatcher
 {

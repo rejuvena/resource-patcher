@@ -1,8 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Rejuvena.ResourcePatcher.Common.Util;
 using ReLogic.Content;
 
-namespace Rejuvena.ResourcePatcher.Common.Util
+namespace Rejuvena.ResourcePatcher.Utilities
 {
     public class BatchDrawData
     {
